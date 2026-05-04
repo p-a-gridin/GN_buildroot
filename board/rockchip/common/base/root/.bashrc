@@ -96,7 +96,7 @@ alias h='history'
 alias rb='reboot'
 alias po='poweroff'
 alias pm='cat /sys/kernel/debug/pinctrl/pinctrl-rockchip-pinctrl/pinmux-pins|less'
-alias dl='dmesg | less -R'
+alias dl='dmesg  --color=always | less -R'
 alias a=alias
 
 # Alias definitions.
